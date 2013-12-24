@@ -43,6 +43,7 @@ public class Selenium extends TestExecutor implements SauceOnDemandSessionIdProv
 	
 public static WebDriver driver;
 
+
 private String sessionId;
 
 
@@ -58,8 +59,9 @@ public String getSessionId() {
 		String ieDriver = "IEDriverServer.exe";
 		String testCasesSheetName = "TCS";			
 				if (browser.equalsIgnoreCase("firefox")) {
-					driver = new FirefoxDriver();
-					driver.get(url);
+					
+				
+					
 					/**
 					 * sauce code
 					 */
