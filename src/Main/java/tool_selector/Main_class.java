@@ -20,7 +20,7 @@ public class Main_class
 	@Test
 	public void test() throws IOException, Throwable
 	{
-		Logger.getRootLogger().setLevel(Level.OFF);
+		
 		int numOfScripts = lib.getRowCount(masterSheetName);
 		for (int row = 1; row <= numOfScripts; row++) 
 		{
