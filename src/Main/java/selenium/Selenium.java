@@ -76,7 +76,7 @@ public String getSessionId() {
 			        driver.get(url);
 					
 					
-				} else if (browser.equalsIgnoreCase("Chrome")) {
+				} else if (browser.equalsIgnoreCase("chrome")) {
 					
 				System.setProperty("webdriver.chrome.driver", driversFolder + chromeDriver);
 					driver = new ChromeDriver();
