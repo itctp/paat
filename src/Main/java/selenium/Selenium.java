@@ -58,7 +58,7 @@ public String getSessionId() {
 		String chromeDriver = "chromedriver.exe";
 		String ieDriver = "IEDriverServer.exe";
 		String testCasesSheetName = "TCS";			
-				if (browser.equalsIgnoreCase("firefox")) {
+				if (browser.equalsIgnoreCase("Firefox")) {
 					
 				
 					
