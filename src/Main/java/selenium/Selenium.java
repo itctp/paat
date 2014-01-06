@@ -58,7 +58,7 @@ public String getSessionId() {
 		String chromeDriver = "chromedriver.exe";
 		String ieDriver = "IEDriverServer.exe";
 		String testCasesSheetName = "TCS";			
-				if (browser.equalsIgnoreCase("Firefox")) {
+				if (browser.equalsIgnoreCase("firefox")) {
 					
 				
 					
@@ -76,7 +76,7 @@ public String getSessionId() {
 			        driver.get(url);
 					
 					
-				} else if (browser.equalsIgnoreCase("Chrome")) {
+				} else if (browser.equalsIgnoreCase("chrome")) {
 					
 				System.setProperty("webdriver.chrome.driver", driversFolder + chromeDriver);
 					driver = new ChromeDriver();
