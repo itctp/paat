@@ -66,7 +66,7 @@ public String getSessionId() {
 					 * sauce code
 					 */
 					DesiredCapabilities capabilities = DesiredCapabilities.firefox();
-			        capabilities.setCapability("version", "25");
+			        capabilities.setCapability("version", "26");
 			        capabilities.setCapability("platform", Platform.XP);
 			        capabilities.setCapability("name",  testName.getMethodName());
 			        this.driver = new RemoteWebDriver(
